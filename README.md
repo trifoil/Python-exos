@@ -18,5 +18,7 @@ Etre appartenant à une classe.
 Une classe possède tous les attributs des classes qui la contiennent
 
 ## Methode 
-Opération vasant à modifier/effectuer des activités spécifiques avec des objets
+Opération visant à effectuer des activités spécifiques avec des objets
 
+## Instanciation 
+Créer un objet depuis une classe
