@@ -6,15 +6,19 @@ Python exercices
 python3.12 -m venv poo-ecole
 source poo-ecole/bin/activate
 
+## Classe
 
+contient un ensemble d'objets qui possèdent des attributs en commun
 
+## Objet 
 
-## pyttsx3
+Etre appartenant à une classe.
 
-To install espeak on ubuntu or any of the debian based OS, enter the following command on the terminal:
+## Héritage
 
-sudo apt install espeak
+Une classe possède tous les attributs des classes qui la contiennent
 
-To use pyttsx3 python library, install the following using terminal:
+## Methode 
 
-pip3 install pyttsx3 sudo apt install espeak pip3 install pyaudio or use sudo apt install python3-pyaudio
+Opération vasant à modifier/effectuer des activités spécifiques avec des objets
+
