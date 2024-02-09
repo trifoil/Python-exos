@@ -7,6 +7,12 @@ python3.12 -m venv poo-ecole
 source poo-ecole/bin/activate
 ```
 
+## POO 
+
+POO <-> Procedural
+
+## Paradigme 
+Manière de voir 
 
 ## Classe
 Contient un ensemble d'objets qui possèdent des attributs en commun
