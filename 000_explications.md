@@ -9,7 +9,7 @@ source poo-ecole/bin/activate
 
 ## POO 
 
-POO <-> Procedural
+POO (objets) opposé au Procedural (fonctions)
 
 ## Paradigme 
 Manière de voir 
