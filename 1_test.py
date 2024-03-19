@@ -51,7 +51,7 @@ print (Mon4EObjet.stackGetter())
 
 #mise en place de setter (mutateur)
 
-class Ma5emeclasse:
+class Ma5EmeClasse:
     def __init__(self):
         print("inited")
         self.variablePrincipale = 3
@@ -60,8 +60,34 @@ class Ma5emeclasse:
     def variableGetter(self):
         return self.variablePrincipale
 
-Mon5EObjet = Ma5emeclasse()
+Mon5EObjet = Ma5EmeClasse()
 print (Mon5EObjet.variableGetter())
 Mon5EObjet.variableSetter(7)
 print(Mon5EObjet.variableGetter())
+
+#mise en place de property
+
+class Ma6EmeClasse:
+    def __init__(self):
+        self.variablePrincipale = 0
+    @property
+    def variablePrincipale(self):
+        print("retourne la valeur depuis le getter")
+        return self._variablePrincipale
+
+    @variablePrincipale.setter
+    def variablePrincipale(self, valeur):
+        print("modif de la variable depuis le setter")
+        self._variablePrincipale = valeur
+
+Mon6EObjet = Ma6EmeClasse()
+
+print(Mon6EObjet.variablePrincipale)
+Mon6EObjet.variablePrincipale = 7
+print(Mon6EObjet.variablePrincipale)
+
+#Pour les attributs privés on utilise __ au début du nom de la méthode
+#(et pas à la fin) et la méthode est toujours retrouvable sur le modèle
+#de _NomDeLaClasse__NomDeLaMethode
+
 

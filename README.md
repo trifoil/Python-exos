@@ -1,5 +1,13 @@
 # Python-exos
-Python exercices
+
+* Séance 1 : chap 1 et 2 : p20
+* Séance 2 : chap 3 et 4 : p36
+* Séance 3 : deb chap 5 : p47
+* Séance 4 : fin chap 5 : p56
+* Séance 5 : Intégration
+* Séance 6 : UML
+* Séance 7 : Complet
+* Séance 8-10 : Pygame
 
 ## Venv
 ```
